@@ -6,6 +6,5 @@ edition = "2021"
 
 [dependencies]
 libc = { version = "0.2", default-features = false }
-libc-print = "0.1"
 pros = { git = "https://github.com/serxka/pros-rs" }
 
