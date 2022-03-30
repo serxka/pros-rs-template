@@ -21,7 +21,7 @@ cat << EOF > project.pros
                 "system_files": [],
                 "target": "v5",
                 "user_files": [],
-                "version": "3.4.0"
+                "version": "3.5.3"
             }
         },
         "upload_options": {}

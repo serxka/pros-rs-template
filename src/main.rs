@@ -8,7 +8,7 @@ use pros::prelude::*;
 struct VexRobot;
 
 impl Robot for VexRobot {
-	fn new() -> Self {
+	fn new(device: Devices) -> Self {
 		VexRobot
 	}
 
