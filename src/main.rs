@@ -12,19 +12,19 @@ impl Robot for VexRobot {
 		VexRobot
 	}
 
-	fn competition_init(&mut self) {
+	fn competition_init(&self) {
 		println!("competition_init()");
 	}
 
-	fn disabled(&mut self) {
+	fn disabled(&self) {
 		println!("disabled()");
 	}
 
-	fn autonomous(&mut self) {
+	fn autonomous(&self) {
 		println!("autonomous()");
 	}
 
-	fn opcontrol(&mut self) {
+	fn opcontrol(&self) {
 		println!("opcontrol()");
 	}
 }
