@@ -12,19 +12,19 @@ impl Robot for VexRobot {
 		VexRobot
 	}
 
-	fn competition_init(&self) {
+	fn competition_init(&'static self, state: CompetitionState) {
 		println!("competition_init()");
 	}
 
-	fn disabled(&self) {
+	fn disabled(&'static self, state: CompetitionState) {
 		println!("disabled()");
 	}
 
-	fn autonomous(&self) {
+	fn autonomous(&'static self, state: CompetitionState) {
 		println!("autonomous()");
 	}
 
-	fn opcontrol(&self) {
+	fn opcontrol(&'static self, state: CompetitionState) {
 		println!("opcontrol()");
 	}
 }
