@@ -5,6 +5,4 @@ authors = ["{{authors}}"]
 edition = "2021"
 
 [dependencies]
-libc = { version = "0.2", default-features = false }
-pros = { git = "https://github.com/serxka/pros-rs", branch="v0.3-dev" }
-
+pros = { git = "https://github.com/serxka/pros-rs" }
